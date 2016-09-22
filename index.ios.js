@@ -11,21 +11,20 @@ import {
   Text,
   View
 } from 'react-native';
+import Camera from 'react-native-camera';
 
 class SelfSee extends Component {
+  getInitialState: function() {
+    return { cameraType: Camera.constants.Type.front }
+  }
+
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native, fool!
+          SelfSee
         </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
+        <Camera
       </View>
     );
   }
