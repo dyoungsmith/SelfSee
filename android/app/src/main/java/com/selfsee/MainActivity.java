@@ -1,6 +1,9 @@
 package com.selfsee;
 
 import com.facebook.react.ReactActivity;
+import com.oblador.vectoricons.VectorIconsPackage;
+import com.github.xinthink.rnmk.ReactMaterialKitPackage;
+import com.lwansbrough.ReactCamera.ReactCamera;
 
 public class MainActivity extends ReactActivity {
 

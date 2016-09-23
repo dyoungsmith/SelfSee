@@ -26,6 +26,21 @@ class SelfSee extends Component {
           Double tap R on your keyboard to reload,{'\n'}
           Shake or press menu button for dev menu
         </Text>
+        <MKButton
+  backgroundColor={MKColor.Teal}
+  shadowRadius={2}
+  shadowOffset={{width:0, height:2}}
+  shadowOpacity={.7}
+  shadowColor="black"
+  onPress={() => {
+    console.log('hi, raised button!');
+  }}
+  >
+  <Text pointerEvents="none"
+        style={{color: 'white', fontWeight: 'bold',}}>
+    RAISED BUTTON
+  </Text>
+</MKButton>
       </View>
     );
   }
