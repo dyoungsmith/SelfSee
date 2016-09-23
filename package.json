@@ -3,12 +3,16 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "start-server": "nodemon --watch server -e js,html start-server.js",
+    "db-init": "./db-init.sh"
   },
   "dependencies": {
+    "pg": "^6.1.0",
     "react": "15.3.2",
     "react-native": "0.33.0",
-    "react-native-camera": "git+https://github.com/lwansbrough/react-native-camera.git"
+    "react-native-camera": "git+https://github.com/lwansbrough/react-native-camera.git",
+    "sequelize": "^3.24.3"
   },
   "devDependencies": {
     "babel-core": "^6.14.0",
