@@ -16,9 +16,9 @@ import {
 import Camera from 'react-native-camera';
 
 class SelfSee extends Component {
-  getInitialState() {
-    return { cameraType: Camera.constants.Type.front }
-  }
+  // getInitialState() {
+  //   return { cameraType: Camera.constants.Type.front }
+  // }
 
   render() {
     return (
@@ -26,14 +26,14 @@ class SelfSee extends Component {
         <Text style={styles.welcome}>
             SelfSee
         </Text>
-        <Camera
-          ref={(cam) => {
-            this.camera = cam;
-          }}
-          style={styles.preview}
-          aspect={Camera.constants.Aspect.fill}>
-          <Text style={styles.capture} onPress={this._takePicture.bind(this)}>[CAPTURE]</Text>
-        </Camera>
+        // <Camera
+        //   ref={(cam) => {
+        //     this.camera = cam;
+        //   }}
+        //   style={styles.preview}
+        //   aspect={Camera.constants.Aspect.fill}>
+        //   <Text style={styles.capture} onPress={this._takePicture.bind(this)}>[CAPTURE]</Text>
+        // </Camera>
       </View>
     );
   }

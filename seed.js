@@ -37,11 +37,56 @@ var seedEmo = function() {
 var seedSelfie = function() {
   var selfies = [
     {
-      imageUrl: 'http://universe.byu.edu/wp-content/uploads/2014/02/SelfiePolice_1.jpg'
+      imageUrl: 'https://drive.google.com/uc?id=0Bw82flTH7p5ld0ItWnFXaW1HRTg'
     },
     {
-      imageUrl: 'https://drive.google.com/uc?id=0Bw82flTH7p5ld0ItWnFXaW1HRTg'
-    }
+      imageUrl: 'https://drive.google.com/uc?id=0Bw82flTH7p5lMGc3aUNUa3J5dDQ'
+    },
+    {
+      imageUrl: 'https://drive.google.com/uc?id=0Bw82flTH7p5lMzZnWE5ENHM5bUE'
+    },
+    {
+      imageUrl: 'https://drive.google.com/uc?id=0Bw82flTH7p5lb0RJa2IxODZuSzg'
+    },
+    {
+      imageUrl: 'https://drive.google.com/uc?id=0Bw82flTH7p5ldmRjYzhWNDdrZDA'
+    },
+    {
+      imageUrl: 'https://drive.google.com/uc?id=0Bw82flTH7p5lSE12WXI4U1N3dkE'
+    },
+    {
+      imageUrl: 'https://drive.google.com/uc?id=0Bw82flTH7p5lSmlDemtpUmtGUjg'
+    },
+    {
+      imageUrl: 'https://drive.google.com/uc?id=0Bw82flTH7p5lSC0tY3YtbTdFcms'
+    },
+    {
+      imageUrl: 'https://drive.google.com/uc?id=0Bw82flTH7p5lczJ4U2Nxdm04MWM'
+    },
+    {
+      imageUrl: 'https://drive.google.com/uc?id=0Bw82flTH7p5lNHVoa0lzTndhcGs'
+    },
+    {
+      imageUrl: 'https://drive.google.com/uc?id=0Bw82flTH7p5lN0loSjV4Y1hkSEk'
+    },
+    {
+      imageUrl: 'https://drive.google.com/uc?id=0Bw82flTH7p5la3dwU2V0UnIxRGc'
+    },
+    {
+      imageUrl: 'https://drive.google.com/uc?id=0Bw82flTH7p5lQ3dNV3FhTVl4RXM'
+    },
+    {
+      imageUrl: 'https://drive.google.com/uc?id=0Bw82flTH7p5lZDhuUzV2SEtHUms'
+    },
+    {
+      imageUrl: 'https://drive.google.com/uc?id=0Bw82flTH7p5lVTd1M1M4dW1CdWM'
+    },
+    {
+      imageUrl: 'https://drive.google.com/uc?id=0Bw82flTH7p5lb1M4WlQ1UDlWbUk'
+    },
+    {
+      imageUrl: 'https://drive.google.com/uc?id=0Bw82flTH7p5lSEtsQWVCSkIteGc'
+    },
   ];
 
   var SelfiePromises = [];
