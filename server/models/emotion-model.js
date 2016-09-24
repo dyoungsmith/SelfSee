@@ -8,7 +8,7 @@ var Emotion = db.define('emotion', {
 	// SCHEMA
 	emoji: {
 		type: Sequelize.STRING,
-		allowNull: false
+		// allowNull: false
 	},
 	// NB: Sequelize.DECIMAL stores as a string! change/coerce later for calculations
 	anger: {

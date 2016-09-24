@@ -4,6 +4,7 @@ var db = require('./server/models/_db.js');
 var app = require('./server/app.js');
 var server = require('http').createServer();
 
+
 db.sync()
 .then(function () {
   server.on('request', app);
@@ -16,4 +17,4 @@ db.sync()
 })
 .catch(function (err) {
   console.error(chalk.red(err.stack));
-})
+});
