@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import Camera from 'react-native-camera';
 
-class SelfSee extends Component {
+class CameraTest extends Component {
 
   render() {
     return (
@@ -55,5 +55,3 @@ const styles = StyleSheet.create({
     margin: 40
   }
 });
-
-AppRegistry.registerComponent('SelfSee', () => CameraTest);
