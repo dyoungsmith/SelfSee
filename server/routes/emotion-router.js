@@ -5,7 +5,7 @@ var Emotion = require('../models/emotion-model.js');
 
 // GET all emotion data
 // TO DO: transform to object of emotions with arrays for each day
-router.get('/', function(req, res, next) {
+router.get('/', (req, res, next) => {
 	Emotion.findAll()
 	.then(function(allEmoData) {	// Array of objects
 		// var allData = {};
@@ -16,7 +16,6 @@ router.get('/', function(req, res, next) {
 	})
 	.catch(next);
 });
-
 
 	// {
  //      "anger": 0.002819255,
@@ -30,8 +29,8 @@ router.get('/', function(req, res, next) {
  //    }
 
 
-// GET emotion data for particular selfie
-router.get('/:selfieId', function(req, res, next) {
+// GET emotion data for specified selfie
+router.get('/:selfieId', (req, res, next) => {
 	Emotion.findOne({
 		where: {
 			selfieId: req.params.selfiId
@@ -44,7 +43,7 @@ router.get('/:selfieId', function(req, res, next) {
 });
 
 // Add emotion data for the day (include selfieId in req.body???)
-router.post('/', function(req, res, next) {
+router.post('/', (req, res, next) => {
 	Emotion.create(req.body)
 	.then(function(createdEmos) {
 		res.status(201).json(createdEmos);
